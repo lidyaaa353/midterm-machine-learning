@@ -1,4 +1,4 @@
-# 🎓 Final Term Machine Learning Test
+# 🎓 Mid Term Machine Learning Test
 
 <div align="center">
 
