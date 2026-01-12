@@ -1,0 +1,19 @@
+{
+  "Dataset": "Year Prediction MSD",
+  "Total Samples": 515345,
+  "Training Samples": 394074,
+  "Validation Samples": 69543,
+  "Test Samples": 51514,
+  "Features": 90,
+  "Target": "Release Year (1922-2011)",
+  "Best Model": "Ensemble",
+  "Test RMSE": "8.7983 years",
+  "Test MAE": "6.2358 years",
+  "Test R\u00b2": "0.3388",
+  "Models in Ensemble": [
+    "XGBoost",
+    "LightGBM",
+    "Random Forest",
+    "Deep NN"
+  ]
+}

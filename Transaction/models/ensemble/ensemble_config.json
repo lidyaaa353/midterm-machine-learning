@@ -1,0 +1,31 @@
+{
+  "ensemble_method": "Weighted Average",
+  "weights": {
+    "xgboost_tuned": 0.1742195337530151,
+    "lightgbm": 0.17175013876467346,
+    "catboost": 0.16993703150914066,
+    "random_forest": 0.1652492916814545,
+    "mlp": 0.16073947707439618,
+    "deep_nn": 0.15810452721732007
+  },
+  "models_used": [
+    "xgboost_tuned",
+    "lightgbm",
+    "catboost",
+    "random_forest",
+    "mlp",
+    "deep_nn"
+  ],
+  "holdout_metrics": {
+    "roc_auc": 0.9324360655808993,
+    "pr_auc": 0.6532261493037861,
+    "f1": 0.5288896938960334
+  },
+  "prediction_stats": {
+    "mean": 0.1867714869554984,
+    "std": 0.15907776056066827,
+    "min": 0.016820799313944413,
+    "max": 0.9876483268248764,
+    "predicted_fraud_rate": 0.04700300577669625
+  }
+}

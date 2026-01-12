@@ -1,0 +1,138 @@
+{
+  "best_model": "ML: xgboost_tuned",
+  "holdout_metrics": {
+    "Model": "ML: xgboost_tuned",
+    "Accuracy": 0.9695702238629051,
+    "Precision": 0.5490339044841415,
+    "Recall": 0.7289448209099709,
+    "F1": 0.6263256394260761,
+    "ROC-AUC": 0.9499938753431286,
+    "PR-AUC": 0.7455667048688513
+  },
+  "optimal_threshold": 0.7000000000000002,
+  "top_features": [
+    {
+      "Feature": "TransactionAmt_Decimal",
+      "Importance": 0.42340460419654846
+    },
+    {
+      "Feature": "card1",
+      "Importance": 0.36974984407424927
+    },
+    {
+      "Feature": "TransactionID",
+      "Importance": 0.3665309250354767
+    },
+    {
+      "Feature": "Card_Combination",
+      "Importance": 0.326678991317749
+    },
+    {
+      "Feature": "card2",
+      "Importance": 0.31315988302230835
+    },
+    {
+      "Feature": "TransactionAmt_Log",
+      "Importance": 0.3079076111316681
+    },
+    {
+      "Feature": "D1",
+      "Importance": 0.2581634819507599
+    },
+    {
+      "Feature": "C1",
+      "Importance": 0.22922483086585999
+    },
+    {
+      "Feature": "D15",
+      "Importance": 0.22803029417991638
+    },
+    {
+      "Feature": "D10",
+      "Importance": 0.22176049649715424
+    }
+  ],
+  "all_models_ranking": [
+    {
+      "Model": "ML: xgboost_tuned",
+      "Accuracy": 0.9695702238629051,
+      "Precision": 0.5490339044841415,
+      "Recall": 0.7289448209099709,
+      "F1": 0.6263256394260761,
+      "ROC-AUC": 0.9499938753431286,
+      "PR-AUC": 0.7455667048688513
+    },
+    {
+      "Model": "ML: xgboost",
+      "Accuracy": 0.9452026958377079,
+      "Precision": 0.36607142857142855,
+      "Recall": 0.7739593417231365,
+      "F1": 0.49704693814112527,
+      "ROC-AUC": 0.9463674474088088,
+      "PR-AUC": 0.7103948310031521
+    },
+    {
+      "Model": "ML: lightgbm",
+      "Accuracy": 0.9152639956649846,
+      "Precision": 0.262911555842479,
+      "Recall": 0.7884801548886737,
+      "F1": 0.39433551198257083,
+      "ROC-AUC": 0.9357561460095095,
+      "PR-AUC": 0.6425856855663964
+    },
+    {
+      "Model": "ML: catboost",
+      "Accuracy": 0.899617299420869,
+      "Precision": 0.22863968521641373,
+      "Recall": 0.787512100677638,
+      "F1": 0.35438902199956435,
+      "ROC-AUC": 0.9254615159550921,
+      "PR-AUC": 0.5984826549881966
+    },
+    {
+      "Model": "ML: random_forest",
+      "Accuracy": 0.9274392928506113,
+      "Precision": 0.27352520922637275,
+      "Recall": 0.648596321393998,
+      "F1": 0.38478104809763103,
+      "ROC-AUC": 0.8944838916173381,
+      "PR-AUC": 0.537432580900729
+    },
+    {
+      "Model": "DL: mlp",
+      "Accuracy": 0.84470145968097,
+      "Precision": 0.14676344834443672,
+      "Recall": 0.7144240077444337,
+      "F1": 0.24350408314773572,
+      "ROC-AUC": 0.8676851373951385,
+      "PR-AUC": 0.4479710918783031
+    },
+    {
+      "Model": "DL: deep_nn",
+      "Accuracy": 0.9706709113692552,
+      "Precision": 0.9260204081632653,
+      "Recall": 0.17570183930300096,
+      "F1": 0.29536208299430433,
+      "ROC-AUC": 0.8548547966247,
+      "PR-AUC": 0.4341550338217016
+    },
+    {
+      "Model": "ML: logistic_regression",
+      "Accuracy": 0.8165577268262946,
+      "Precision": 0.12214464270321523,
+      "Recall": 0.685866408518877,
+      "F1": 0.20736079607814445,
+      "ROC-AUC": 0.8306386711667224,
+      "PR-AUC": 0.32259598152187763
+    },
+    {
+      "Model": "DL: autoencoder",
+      "Accuracy": 0.9154163985504792,
+      "Precision": 0.17706725468577728,
+      "Recall": 0.3886737657308809,
+      "F1": 0.24329647023178305,
+      "ROC-AUC": 0.7707162293163942,
+      "PR-AUC": 0.14540234230033222
+    }
+  ]
+}

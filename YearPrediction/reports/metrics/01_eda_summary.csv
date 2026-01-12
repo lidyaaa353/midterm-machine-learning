@@ -1,0 +1,11 @@
+Metric,Value
+Total Samples,515345
+Total Features,90
+Target Variable,year
+Year Range,1922 - 2011
+Mean Year,1998.40
+Median Year,2002.0
+Missing Values,0
+Duplicate Rows,214
+Constant Columns,0
+Memory Usage (MB),375.17

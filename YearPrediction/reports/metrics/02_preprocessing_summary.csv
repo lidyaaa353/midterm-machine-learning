@@ -1,0 +1,14 @@
+Metric,Value
+Original samples,515345
+After duplicate removal,515131
+Duplicates removed,214
+Train samples,394074
+Validation samples,69543
+Test samples,51514
+Features,90
+Outlier method,IQR clipping (bounds from TRAIN only)
+Scaling method,StandardScaler (fit on TRAIN only)
+Split method,Random (similar distribution across sets)
+Train year range,1922-2011
+Val year range,1925-2010
+Test year range,1924-2010
